@@ -1,0 +1,53 @@
+
+body{
+	height:100%;
+	margin: 0;
+}
+
+html {
+	height:100%;
+}
+
+#sidebar{
+	display: flex;
+	margin-top: 0;
+	text-decoration: none;
+	padding: 50px;
+	font-size: 18px;
+	max-width: 20%;
+	border:solid 2px red;
+	background-color: white;
+	font-family: "Lato";
+	height: 100%
+}
+
+
+ul {
+	list-style: none;
+	text-align: left;
+	font-weight: 200;
+
+}
+
+li {
+	text-transform: uppercase;
+	display: block;
+	padding-bottom: 20px;
+
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+li a:active {
+color: black; 
+
+}
+
+li a:hover {
+	color: black;
+}
+
+
