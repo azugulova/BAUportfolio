@@ -14,56 +14,6 @@ p {
   margin: 0 20px;
   line-height: 30px; }
 
-.home {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-flex-basis: 97%;
-      -ms-flex-preferred-size: 97%;
-          flex-basis: 97%; }
-
-.main {
-  background-image: url("../img/italy/France2015151.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100%; }
-
-.categories {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row; }
-
-.travel, .portrait, .still-life {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 33.3%;
-      -ms-flex: 1 1 33.3%;
-          flex: 1 1 33.3%;
-  height: 50vh;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.travel {
-  background-image: url("../img/italy/France2015163.jpg"); }
-
-.portrait {
-  background-image: url("../img/italy/Italy2015074.jpg"); }
-
-.still-life {
-  background-image: url("../img/Spring2015525.jpg"); }
-
 html, body {
   margin: 0px; }
 
@@ -339,7 +289,7 @@ body {
   max-width: 100%; }
   @media screen and (min-width: 1024px) {
     .img-two {
-      max-width: 49.77%;
+      max-width: 49.7%;
       height: auto; } }
 
 a.back-to-top {
