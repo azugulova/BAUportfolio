@@ -21,7 +21,6 @@
 
     <div class="page-container">
 
-
         <div class="content-area">
             <div class="img-box-one">
                 <img src="img/usa/img558.jpg" alt="Public market in Seattle">
@@ -97,8 +96,12 @@
      $(window).scroll(function() {
         if ( $(window).scrollTop() > amountScrolled ) {
             $('a.back-to-top').fadeIn('slow');
+            $('.header-area').fadeOut('slow');
+            $('.content-area').css('flex-basis','100%');
         } else {
             $('a.back-to-top').fadeOut('slow');
+            $('.header-area').fadeIn('slow');
+            $('.content-area').css('flex-basis','97%');
         }
     });
 
@@ -110,7 +113,7 @@
     });
 
 
-</script>
+    </script>
 
 </body>
 
