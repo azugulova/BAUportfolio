@@ -12,7 +12,6 @@
 	background-color: black;
 	opacity: 0.5;
 	width: 100%;
-	min-height: 33vh;
 	margin: 0px;
 	text-decoration: none;
 	color:white;
@@ -25,18 +24,21 @@
 
 
 .album-tile{
-	min-width: 320px;
+	display: block;
+	text-decoration: none;
+	margin: 30px;
 	flex-basis: 100%;
 	flex-growth:1;
 	display: flex;
 	align-items:center;
 	justify-content:center;
 	flex-direction: row;
-	min-height: 33vh;
+	min-height: 30vh;
 	color:white;
+	min-width: 320px;
 
 	@media screen and (min-width: $tablet-width) {
-		flex-basis: 50%;
+		flex-basis: 25%;
 	}
 
 	&:hover > .album-title {

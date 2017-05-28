@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Albums</title>
+        <title>Alina Zugulove</title>
         <!-- ======== META TAGS ======== -->
         <meta charset="utf-8">
         <html lang="en">
@@ -10,8 +10,8 @@
         <!-- ======== / META TAGS ======== -->
         <!-- ======== STYLESHEETS & FONTS ======== -->
         <link rel="stylesheet" type="text/css" href="css/main.css" media="all">
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One|EB+Garamond' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Raleway:300,400" rel="stylesheet">
+
         <!-- ======== / STYLESHEETS & FONTS ======== -->
         <!-- ======== STANDARD SCRIPTS ======== -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -22,78 +22,35 @@
 
         <div class="page-container">
 
-             <div class="content-area-albums">
-                <div class="album-tile album-tile-italy">
-                    <a href="italy.html" class="album-title">Italy</a>
-                </div>
-                <div class="album-tile album-tile-france">
-                    <a href="france.html" class="album-title">France</a>
-                </div>
-                <div class="album-tile album-tile-malaysia">
-                    <a href="malaysia.html" class="album-title">Malaysia</a>
-                </div>
-                <div class="album-tile album-tile-bolivia">
-                    <a href="bolivia.html" class="album-title">Bolivia</a>
-                </div>
-                <div class="album-tile album-tile-canada">
-                    <a href="canada.html" class="album-title">Canada</a>
-                </div>
-                <div class="album-tile album-tile-usa">
-                    <a href="usa.html" class="album-title">USA</a>
-                </div>
+            <!-- ========  HEADER ======== -->
+            <header>
+                <p class="header-what">Film Photography</p>
+                <p class="header-who">Alina Zugulove</p>
+                <nav>
+                    <a class="nav-item" href="index.html">Work</a>
+                    <a class="nav-item" href="about.html">About</a>
+                </nav>
+            </header>
 
-        </div>
+            <!-- ======== / HEADER ======== -->
 
-
-
-            <div class="header-area">
-
-                <div class="mobile-nav">
-
-                    <div class="btn-open">
-                        <div></div>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-
-                    <div class="btn-close">&times;</div>
-
-                    <nav class="responsive-menu">
-                     <ul>
-                        <li><a href="index.html" >Home</a></li>
-                        <li><a href="italy.html">Italy</a></li>
-                        <li><a href="france.html">France</a></li>
-                        <li><a href="malaysia.html">Malaysia</a></li>
-                        <li><a href="bolivia.html">Bolivia</a></li>
-                        <li><a href="canada.html">Canada</a></li>
-                        <li><a href="usa.html">USA</a></li>
-                        <li><a href="about.html">About</a></li>
-                     </ul>
-                    </nav>
-                </div> 
+            <!-- ======== ALBUM TILES ======== -->
+            <div class="content-area-albums">
+                <a class="album-tile album-tile-italy" href="italy.html" class="album-title">Italy</a>
+                <a  class="album-tile album-tile-france" href="france.html" class="album-title">France</a>
+                <a class="album-tile album-tile-malaysia" href="malaysia.html" class="album-title">Malaysia</a>
+                <a class="album-tile album-tile-bolivia" href="bolivia.html" class="album-title">Bolivia</a>
+                <a class="album-tile album-tile-canada" href="canada.html" class="album-title">Canada</a>
+                <a class="album-tile album-tile-usa" href="usa.html" class="album-title">USA</a>
             </div>
+            <!-- ======== / ALBUM TILES ======== -->
+
+
 
         </div>
 
 
-    <script type="text/javascript">
-     jQuery(function($){
-         $( '.btn-open' ).click(function(){
-             $('.responsive-menu').addClass('expand')
-             $('.btn-open').addClass('btn-none')
-             $('.btn-close').addClass('btn-flex')
-         })
-
-         $( '.btn-close' ).click(function(){
-             $('.responsive-menu').removeClass('expand')
-             $('.btn-open').removeClass('btn-none')
-             $('.btn-close').removeClass('btn-flex')
-         })
-     })
- </script>
-
-</body>
+    </body>
 
 
 
